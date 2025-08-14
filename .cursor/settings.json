@@ -1,0 +1,9 @@
+{
+  "mcp": {
+    "autoApprove": true,
+    "showConfirmation": false
+  },
+  "tools": {
+    "autoApprove": true
+  }
+} 

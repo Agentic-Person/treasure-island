@@ -1,0 +1,17 @@
+Downloading cpython-3.12.11-linux-x86_64-gnu (download) (29.9MiB)
+ Downloading cpython-3.12.11-linux-x86_64-gnu (download)
+Using CPython 3.12.11
+Creating virtual environment at: .venv
+   Building unitymcpserver @ file:///home/jimihacks/bin/UnityMCP/UnityMcpServer/src
+Downloading pydantic-core (1.9MiB)
+Downloading pygments (1.2MiB)
+ Downloading pygments
+ Downloading pydantic-core
+      Built unitymcpserver @ file:///home/jimihacks/bin/UnityMCP/UnityMcpServer/src
+Installed 26 packages in 16ms
+2025-08-10 21:15:19,078 - unity-mcp-server - INFO - Unity MCP Server starting up
+2025-08-10 21:15:19,078 - unity-mcp-server - INFO - Creating new Unity connection
+2025-08-10 21:15:19,078 - unity-mcp-server - INFO - Discovered Unity port from registry: 6400
+2025-08-10 21:15:19,079 - unity-mcp-server - INFO - Connected to Unity at localhost:6400
+2025-08-10 21:15:19,082 - unity-mcp-server - INFO - Successfully established new Unity connection
+2025-08-10 21:15:19,082 - unity-mcp-server - INFO - Connected to Unity on startup

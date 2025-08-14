@@ -1,0 +1,17 @@
+{
+  "unity": {
+    "projectPath": "/home/jimihacks/UnityProjects/TreasureDragon/TreasureIsland_Unity",
+    "unityVersion": "2022.3",
+    "enableLogging": true,
+    "commands": {
+      "create": true,
+      "modify": true,
+      "delete": false,
+      "play": true
+    }
+  },
+  "cursor": {
+    "autoSync": true,
+    "showConfirmation": true
+  }
+} 

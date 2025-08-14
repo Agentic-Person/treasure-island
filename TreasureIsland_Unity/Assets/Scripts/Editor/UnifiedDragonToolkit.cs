@@ -55,7 +55,6 @@ public class UnifiedDragonToolkit : EditorWindow
         var window = GetWindow<UnifiedDragonToolkit>("🐉 Dragon Toolkit v3.0");
         window.minSize = new Vector2(700, 400);
         LoadCustomTypes();
-        return window;
     }
 
     [MenuItem("Tools/🚨 EMERGENCY - Open Dragon Toolkit")]

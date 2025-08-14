@@ -1,0 +1,58 @@
+Thanks for purchasing TOON Adventure Island!
+Initial use:
+In the promotional materials, the pack uses a subtle post processing profile. It’s included in
+the pack, but for the Built-In render pipeline you will need to import the post processing stack via
+the package manager and apply the profile (if you're using URP, the post processing stack is
+installed by default and no further action is necessary).
+If you need help setting up the post processing stack, you can find more details here:
+https://docs.unity3d.com/Packages/com.unity.postprocessing@3.4/manual/Installation.html
+Naming convention:
+The assets in this package use the "TAI" prefix, if you're using other packs from the TOON
+Series, you’ll be able to easily identify the origin of an asset.
+The last letter in the Name, usually is a capital letter, such as: "TAI_Shipwreck_01A". It
+signifies the color scheme of the asset. For more color schemes of an asset, the naming would
+continue as follows: TAI_Shipwreck_01B", "TAI_Shipwreck_01C", etc.
+Prefabs:
+If you use assets from the “Prefabs” folder, then no further setup is required and you can
+skip the next paragraph.
+The source files are contained in the "Models" folder. When needed, custom mesh
+colliders were used and were exported in the hierarchy of their respective asset. If you plan on
+using the source .FBX files, then you will need to remove the “Mesh Renderer” and “Mesh Filter”
+component from the collider asset.The Prefabs are structured in multiple folders, like “Animals”, “Shipwreck”,
+“Vegetation”, etc. The grass prefabs were used on the terrain in conjunction with "Prefab
+Painter 2", available here:
+https://assetstore.unity.com/packages/tools/painting/prefab-painter-2-61331
+It's a very powerful tool, which adds a lot of value to any project where large areas need to
+be covered with foliage, vegetation or any other asset (there are other good painting tools
+available on the Asset Store, even free ones).
+Another way of planting vegetation on the terrain is to use the Unity default "Paint Details"
+tool in the terrain tools. You can find the grass and flower textures in the "Textures" folder.
+Demo Scenes:
+There are 2 scenes included in this pack, one with a full artistic environment and another
+scene, with all the assets grouped in large categories.
+Shaders:
+The assets use custom shaders for the most part, but the overall look of the package
+doesn't change drastically if the shaders are replaced by default Unity shaders (performance is
+also similar).
+The water shader has a couple of nice features, such as shallow and deep colors, opacity,
+foam and refractions. There is also the option of activating the waves function, which add a nice
+height displacement effect on the water surface.
+The grass shader interpolates two colors based on height and it has the option of adding
+a third color as a highlight where the wind distiortion is most visible.
+The toon shaders have a custom lighting model which tries to replicate the CEL shaded
+effect and require one active directional light in the scene, in order to render properly.Boid Manager:
+In the “Scripts” folder, you will find a simple flock simulation tool which you can use to
+bring a little extra life in the scene, during play-mode.
+During play-mode, the tool spawns a number of prefabs that start moving along random
+paths, towards a “Goal” (but not quite reaching it, just hovering in its vicinity).
+There are already two presets, one for a school of fish and another for a flock of seagulls.
+Give those a try, to quickly understand the tools’ capabilities.
+You can edit a few simple settings, in order to customize this tool for your needs:
+Velocity: the speed at which the prefabs will move towards the “Goal”
+Num Spawn: the number of prefabs that will spawn in the instance
+Goal Frequency: the frequency at which the “Goal” spawns in a different location
+Turn Speed: how quickly the prefabs can turn; higher speed means sharper cornering
+Turn Proximity: determines how closely the prefabs hover around the “Goal”
+Prefabs: load your desired prefabs in these slots (add/remove slots with the +/- buttons)
+Box Collider (Component): determines the prefabs spawn location
+FreedomBox (Child): determines the location of possible spawn points for the “Goal”

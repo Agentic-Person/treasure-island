@@ -105,4 +105,4 @@ BACKUP_*
 *.key
 *.pem
 secrets/
-config/local.*
+config/local.*unity-mcp-server/
